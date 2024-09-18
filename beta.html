@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <Link rel="stylesheet" href="css/style.css"></Link>
+    <title>WhatsApp2 Layout Web HTML e CSS</title>
+   
+</head>
+<body>
+    <header> 
+        <nav>
+            <div id="nav_left">
+                <a href="index.html">Home</a> |
+                <a href="sobre.html">Sobre nos</a>       
+                <a></a> 
+                <a></a>    
+            </div>
+            <div id="nav_logo">
+                <img width="95px" height="95px"src="img/zap_a_retirar-removebg-preview.png" alt="ZAPI LOGU">
+            </div>
+            <div id="nav_right">
+                <a></a> 
+                <a></a> 
+                <a href="planos.html">Zap Planos</a> |
+                <a href="beta.html" class="menu_atual">BETA</a>
+            </div>
+        </nav>
+        
+    </header>
+    <main>
+        <h1>REGISTRE-SE NA BETA</h1>
+        <div id="form">
+            <form id="registre-se" method="post">
+                <fieldset>
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" required>
+                </fieldset>
+                <fieldset>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                </fieldset>
+                <fieldset>
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone">
+                </fieldset>
+                <fieldset>
+                    <label for="CPF">CPF</label>
+                    <input type="text" id="CPF">
+                </fieldset>
+                <fieldset>
+                    <label for="Gostaria">Gostaria de concorrer a nossa promo de lançamento do ZAP 2? vc concorre a um ZAP CARRO V8 de 677HP!!!</label>
+                    <input type="checkbox" " id="checkboxZapCarro">
+                </fieldset>
+                <fieldset>
+                    <button onclick="pedir()">Enviar</button>
+                </fieldset>
+            </form>
+            
+        </div>
+        <div id="form2"></div>
+      
+    </main>
+    <footer>
+
+    </footer>
+    <script src="./js/codigos.js"></script>
+</body>
+</html>
